@@ -221,4 +221,3 @@ Additional accuracy and loss figures are available in `docs/figures/`.
 
 - This repository focuses on the Jittor migration for the CIFAR100 10-10 class-incremental setting.
 - Forward transfer (`fwt`) is kept as a simplified placeholder in the Jittor metric logger.
-- Runtime numbers are not used as a strict framework speed comparison because PyTorch and Jittor experiments were run on different GPUs.
