@@ -1,0 +1,12 @@
+jittor==1.3.11.0
+numpy<2.0
+# GPU 环境如果需要 CuPy，请使用 13.x，避免 cupy 14 拉起 numpy>=2 导致 Jittor 不兼容。
+cupy-cuda12x==13.6.0
+Pillow
+tqdm
+ftfy
+regex
+PyYAML
+hydra-core==1.3.2
+omegaconf==2.3.0
+matplotlib
