@@ -38,9 +38,7 @@ class_orders/
 
 scripts/
   prepare_cifar100.py
-  train_jittor_cifar100_debug.py
   train_jittor_cifar100_full.py
-  test_jittor_smoke.py
 
 tools/
   convert_openai_clip_to_jittor.py
@@ -127,18 +125,6 @@ The Jittor CLIP loader expects:
 ```
 
 ## Run Jittor RAPF
-
-Smoke test:
-
-```bash
-python scripts/test_jittor_smoke.py
-```
-
-Debug training:
-
-```bash
-use_cuda=1 python scripts/train_jittor_cifar100_debug.py
-```
 
 Full CIFAR100 10-10 training:
 
